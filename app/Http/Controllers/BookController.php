@@ -14,8 +14,8 @@ class BookController extends Controller
     public function show($nobuku){
         return 'nomor buku ini adalah'. $nobuku;
     }   
-    public function store(Request $request){
-        $judulbuku = $request->input('judulbuku');
-    }
+    // public function store(Request $request){
+    //     $judulbuku = $request->input('judulbuku');
+    // }
     
 }
