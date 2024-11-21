@@ -42,6 +42,7 @@ Route::get('/bookcont', [BookController::class, 'index'] );
 
 // REQUEST PENJUMLAHAN ANTAR 2 Parameter
 Route::get('/tambah',function(Request $request) {
+    // VALIDATION
     $validate = $request->validate([
         'angka1'=> 'required|numeric',
         'angka2'=> 'required|numeric',
