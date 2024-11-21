@@ -1,5 +1,4 @@
-
-
+<!-- View -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
