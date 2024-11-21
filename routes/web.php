@@ -38,7 +38,7 @@ Route::get('/perkalian/{angka}', function ($angka) {
 Route::get('/bookcont', [BookController::class, 'index'] );
 
 // CONTROLLER WITH PARAMETER
-Route::get('/bukuparameter/{nobuku}', [BookController::class,'show'] );
+// Route::get('/bukuparameter/{nobuku}', [BookController::class,'show'] );
 
 // REQUEST PENJUMLAHAN ANTAR 2 Parameter
 Route::get('/tambah',function(Request $request) {
